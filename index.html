@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fortune Wheel</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      /* Apply a subtle gradient background for better aesthetics */
+      background: linear-gradient(135deg, #6B7280 0%, #374151 100%); /* Tailwind gray-500 to gray-700 */
+    }
+    /* Custom font from Google Fonts for better aesthetics if desired, Tailwind uses system sans-serif by default */
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Luckiest+Guy&display=swap');
+    .luckiest-guy {
+      font-family: 'Luckiest Guy', cursive;
+    }
+  </style>
+<script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@19/",
+    "react/": "https://esm.sh/react@19/",
+    "react": "https://esm.sh/react@19"
+  }
+}
+</script>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html><link rel="stylesheet" href="index.css">
+<script src="index.tsx" type="module"></script>
